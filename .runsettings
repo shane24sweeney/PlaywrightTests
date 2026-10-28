@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <Playwright>
+    <BrowserName>chromium</BrowserName>
+    <LaunchOptions>
+      <Headless>false</Headless>
+      <SlowMo>5000</SlowMo>
+    </LaunchOptions>
+  </Playwright>
+  <NUnit>
+    <!-- How many tests run at once (each opens its own browser context). -->
+    <NumberOfTestWorkers>4</NumberOfTestWorkers>
+  </NUnit>
+</RunSettings>
